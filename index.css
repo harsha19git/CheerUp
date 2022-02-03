@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace ;
+    /* scroll-behavior: smooth; */
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    /* background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(rgb(26, 153, 100) , rgb(12, 92, 138));
+    background: linear-gradient(rgb(69, 47, 109) , rgb(12, 92, 138));
+    background: linear-gradient(rgb(248, 81, 81) , rgb(12, 92, 138)); */
+    background: rgb(1, 31, 51);
+}
+
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    padding: 30px 100px;
+    /* display:flex;
+    justify-content:space-around;
+    align-items: center;  */
+    z-index: 20;
+}
+
+/* header  */
+
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* header  */
+
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+
+/* header ul */
+
+li  {
+    list-style: none;
+    /* margin-left: 20px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    min-width: 150px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    background :linear-gradient(rgb(215, 137, 230) , rgb(81, 140, 230));
+    border-radius: 20px;
+}
+
+/* header ul */
+
+li:hover {
+    background:linear-gradient(rgb(236, 222, 222) , rgb(65, 143, 179));
+    color: #9d77db;
+    border-radius: 20px;
+
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section ::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+} */
+
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+section #fog_front {
+    z-index: 10;
+}
+
+#text {
+    position: absolute;
+    right: -40px;
+    color: white;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+
+/* #btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background-color: #fff;
+    color: #554b10;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+} */
+
+.sec {
+    /* #1c0522; */
+    position: relative;
+    padding: 100px;
+    /* background-image: url(https://th.bing.com/th/id/R.36720ddbb3c6cb744fa1f42844cfddb1?rik=Tx60LBzYMdGWHw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2017%2f01%2fFog-PNG-HD.png&ehk=ijjTrKPq23UwxT3RoxR44uNhgp3TY5IK5qCxMdr28xg%3d&risl=&pid=ImgRaw&r=0); */
+    background-image: url(https://th.bing.com/th/id/R.0be3caa9582da1f84a601e62b02b57c2?rik=c0JNoMTz0kdlhQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ftransparent-fog-png%2ftransparent-fog-png-17.png&ehk=NMFxFcQyMXPCSnhYhnjBtLSWS2Wbpn1g3oy1Oglbet0%3d&risl=&pid=ImgRaw&r=0);
+    background-position: left;
+    
+}
+
+.sec p {
+    font-size: 1.2em;
+    color: #fff;
+}
