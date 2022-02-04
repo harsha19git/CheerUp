@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/30/20/14/sun-2459532_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    background-color: orange;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.frame {
+    
+    margin-left: 30vw; 
+    align-content: center;
+    
+    
+}
+
+
+header h1 {
+    color: rgb(115, 230, 112);
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 5em;
+}

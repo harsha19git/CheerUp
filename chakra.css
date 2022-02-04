@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/d9/97/09/d99709e093c552efe3ac8996ad5a95ef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(174, 0, 255, 0.493);
+    /* position: absolute; */
+}
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.frame {
+    
+    margin-left: 30vw; 
+    /* align-content: center; */
+    margin-top: 100px;
+}
+
+
+header h1 {
+    color: teal;
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 5em;
+}

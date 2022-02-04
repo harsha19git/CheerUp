@@ -1,0 +1,130 @@
+body {
+    /* background-image: url(https://th.bing.com/th/id/R.47e88463e25f23e1a70c8ac3ce800993?rik=cgU053opx1ZBVg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f07%2fMeditation-Transparent.png&ehk=qhmw27nLrDuIzOY%2fz6hZLn9OjKqR4%2bm9uuGbEMw3gZk%3d&risl=&pid=ImgRaw&r=0); */
+    background-image: url(https://cdn140.picsart.com/268642782018211.png?r1024x1024);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 155%;
+    background-color:rgba(238, 17, 17, 0.315);
+    
+}
+
+/* #container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+} */
+
+#meditate {
+    margin-left: 180px;
+}
+ 
+#heading {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    text-transform:capitalize;
+    font-size: 10vh;
+    color:darkorchid;
+    text-shadow: 50px 10px 20px rgb(48, 212, 176);
+
+}
+
+
+ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+}
+
+li {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+
+.medBtn {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+#chakra {
+    background-image: url(https://nadiaahrens.com/wp-content/uploads/2019/06/chakras-896x1024.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 90px 110px;
+    background-color:rgb(18, 179, 179);
+    color: transparent;
+}
+#chakra:hover {
+    background-image: -webkit-linear-gradient(rgb(45, 203, 243) , teal);
+    background-size:inherit;
+    box-shadow: 10px 0px 80px rgb(115, 216, 216);
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#rejuvenate {
+    background-image: url(https://purepng.com/public/uploads/large/purepng.com-blossom-flowerflower-pink-blossom-flower-961524680272u0zbu.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-color: plum;
+    color: transparent;
+}
+
+#rejuvenate:hover {
+    background-image: -webkit-linear-gradient(plum , rgb(148, 11, 148));
+    background-size:inherit;
+    box-shadow: 10px 0px 80px rgb(215, 45, 238);
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#nature {
+    background-image: url(https://www.freepngimg.com/thumb/nature/2-2-nature-png-file.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100px 120px;
+    background-color: rgb(215, 221, 160);
+    color: transparent;
+}
+#nature:hover {
+    background-image: -webkit-linear-gradient(rgb(210, 221, 160) , rgb(118, 216, 27));
+    background-size:inherit;
+    box-shadow: 10px 0px 80px rgb(72, 233, 24);
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#healing {
+    background-image:url(https://th.bing.com/th/id/R.0fa28b8b7e4ac61abcbbbbb3a21dd98a?rik=%2bq2AbZBzJARdwQ&riu=http%3a%2f%2fwww.site-fusion.co.uk%2ffiles%2fwriteable%2fuploads%2fbasekit-template-images%2fwebfusion69_live96965_handsfinal.png&ehk=C%2fo3BseYGl3hIAHyo%2fTtatzwykAmDHSQbfhW6GVDiMA%3d&risl=&pid=ImgRaw&r=0) ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 150px 60px;
+    background-color: paleturquoise;
+    color: transparent;
+}
+#healing:hover {
+    background-image: -webkit-linear-gradient(paleturquoise , rgb(233, 220, 34));
+    background-size:inherit;
+    box-shadow: 10px 0px 80px rgb(238, 193, 45);
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}

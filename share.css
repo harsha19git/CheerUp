@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(224, 98, 40);
+    background-image: url(https://www.freepngimg.com/thumb/web_design/51077-6-share-images-png-download-free.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
