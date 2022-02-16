@@ -63,7 +63,8 @@ header {
     min-width: 250px;
     text-align: center;
     padding: 6px 15px;
-    color: rgb(190, 113, 113);
+    /* color: rgb(190, 113, 113); */
+    color: azure;
     background :linear-gradient( rgb(81, 140, 230) ,rgb(239, 212, 245) );
     border-radius: 20px;
     border-style: none;
